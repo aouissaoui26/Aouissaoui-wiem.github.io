@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html"><span class="brand-badge">AW</span><span>Aouissaoui wiem</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html">Internships</a>
+        <a href="events.html">Events</a>
+        <a href="coursework.html">Academic Projects</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="iit.html">IIT</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn primary" href="contact.html">Contact</a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-title">
+        <div>
+          <h2>Contact Me</h2>
+          <p>Send me a message (opens your email app).</p>
+        </div>
+      </div>
+
+      <section class="grid-2">
+        <article class="card tile">
+          <h3>Message Form</h3>
+
+          <form class="form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <input class="input" type="text" name="name" placeholder="Your name" required />
+            <input class="input" type="email" name="email" placeholder="Your email" required />
+            <input class="input" type="text" name="subject" placeholder="Subject" required />
+            <textarea name="message" placeholder="Your message..." required></textarea>
+
+            <button class="btn primary" type="submit">Send Email</button>
+            
+          </form>
+        </article>
+
+        <aside class="card tile">
+          <h3>Contact Details</h3>
+          <p class="muted">
+            Phone: +216 54326734<br/>
+            Email: wiemaouissaoui26@gmail.com<br/>
+            Location: Tunisia
+          </p>
+
+          <h3 style="margin-top:14px">Social</h3>
+          <div class="contact-socials">
+  <a class="soc" href="https://github.com/aouissaoui26" target="_blank">
+    <i class="fa-brands fa-github"></i>
+  </a>
+
+  <a class="soc" href="https://www.linkedin.com/in/wiemaouissaoui/" target="_blank">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+
+  <a class="soc" href="https://instagram.com/TON_USERNAME" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+</div>
+
+
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <footer><div class="container"><small>© <span id="year"></span> Aouissaoui wiem</small></div></footer>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

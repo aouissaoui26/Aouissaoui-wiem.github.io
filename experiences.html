@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Internships | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html"><span class="brand-badge">AW</span><span>Aouissaoui wiem</span></a>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html" class="active">Internships</a>
+        <a href="events.html">Events</a>
+        <a href="coursework.html">Academic Projects</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="iit.html">IIT</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn primary" href="contact.html">Contact</a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+
+      <div class="page-title">
+        <div>
+          <h2>Internships & Experience</h2>
+          <p>My internships, roles, objectives, and key contributions.</p>
+        </div>
+      </div>
+
+      <!-- Internship 1 -->
+      <section class="card tile exp-card">
+        <h3>Final-Year Internship — Food Recognition & Calorie Estimation Web App</h3>
+        <p class="muted"><strong>Objective:</strong> Build a computer-vision system for food detection/segmentation and estimate calories, then deploy a web app to visualize results.</p>
+
+        <div class="exp-meta">
+          <span class="pill">ISIMS • Sfax</span>
+          <span class="pill">Feb 2024 – May 2024</span>
+          <span class="pill">End-of-studies project</span>
+        </div>
+
+        <ul class="exp-list">
+          <li>Reviewed related work and analyzed state-of-the-art approaches in food recognition.</li>
+          <li>Prepared and annotated data (FoodSeg103 + newly collected dataset “TunFood”).</li>
+          <li>Developed and evaluated a detection/segmentation pipeline with calorie estimation.</li>
+          <li>Deployed a web application to visualize predictions and results.</li>
+          <li>Wrote technical documentation for the implemented features.</li>
+        </ul>
+
+        <div class="exp-tags">
+          <span class="tag">Object Detection</span>
+          <span class="tag">Segmentation</span>
+          <span class="tag">CNN</span>
+          <span class="tag">Transformers</span>
+          <span class="tag">YOLO</span>
+          <span class="tag">Roboflow</span>
+          <span class="tag">Python</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Keras</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">Scikit-learn</span>
+        </div>
+      </section>
+
+      <!-- Internship 2 -->
+      <section class="card tile exp-card" style="margin-top:18px;">
+        <h3>Summer Internship — Safety Helmet Detection System</h3>
+        <p class="muted"><strong>Objective:</strong> Build a vision model to detect safety helmets in images/video.</p>
+
+        <div class="exp-meta">
+          <span class="pill">Enova Robotics • Sousse</span>
+          <span class="pill">Jul 2023</span>
+          <span class="pill">Summer internship</span>
+        </div>
+
+        <ul class="exp-list">
+          <li>Collected and annotated the dataset.</li>
+          <li>Preprocessed data and trained the model.</li>
+          <li>Developed and evaluated the helmet detection system.</li>
+          <li>Documented the delivered features and usage.</li>
+        </ul>
+
+        <div class="exp-tags">
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Object Detection</span>
+          <span class="tag">YOLOv7</span>
+          <span class="tag">Roboflow</span>
+          <span class="tag">Python</span>
+          <span class="tag">PyTorch</span>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer><div class="container"><small>© <span id="year"></span> Aouissaoui wiem</small></div></footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

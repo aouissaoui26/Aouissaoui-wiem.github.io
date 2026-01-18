@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html"><span class="brand-badge">AW</span><span>Aouissaoui wiem</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html">Internships</a>
+        <a href="events.html">Events</a>
+        <a href="coursework.html">Academic Projects</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="iit.html">IIT</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn primary" href="contact.html">Contact</a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-title">
+        <div>
+          <h2>Skills</h2>
+          <p>Tools, frameworks, programming, databases, and methodologies.</p>
+        </div>
+      </div>
+
+      <section class="grid-2">
+        <div class="card tile">
+          <h3>Technical Skills</h3>
+          <div class="progress">
+            <div>
+              <strong>Python</strong>
+              <div class="bar"><span style="width:90%"></span></div>
+            </div>
+            <div>
+              <strong>JavaScript</strong>
+              <div class="bar"><span style="width:80%"></span></div>
+            </div>
+            <div>
+              <strong>HTML / CSS</strong>
+              <div class="bar"><span style="width:75%"></span></div>
+            </div>
+            <div>
+              <strong>SQL</strong>
+              <div class="bar"><span style="width:70%"></span></div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card tile">
+          <h3>What I Use</h3>
+          <p class="muted">Tools & Technologies:</p>
+          <div>
+            <span class="tag">VS Code</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">AndroidStudio</span>
+            <span class="tag">Linux</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">GoogleColab / Jupyter / Kaggle</span>
+            <span class="tag">Crisp-Dm</span>
+            <span class="tag">Latex</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="page">
+        <div class="page-title">
+          <div>
+            <h2>Soft Skills</h2>
+            <p>Communication, teamwork, time management, etc.</p>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <article class="card tile">
+            <h3>Teamwork</h3>
+            <p class="muted">Collaboration, peer feedback, shared goals.</p>
+          </article>
+          <article class="card tile">
+            <h3>Problem Solving</h3>
+            <p class="muted">Break down problems and deliver solutions.</p>
+          </article>
+          <article class="card tile">
+            <h3>Responsibility</h3>
+            <p class="muted">Serious work, deadlines, and quality.</p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer><div class="container"><small>© <span id="year"></span> Aouissaoui wiem</small></div></footer>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

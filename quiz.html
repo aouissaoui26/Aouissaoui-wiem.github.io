@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html"><span class="brand-badge">AW</span><span>Aouissaoui wiem</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html">Internships</a>
+        <a href="events.html">Events</a>
+        <a href="coursework.html">Academic Projects</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="iit.html">IIT</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn primary" href="contact.html">Contact</a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+    
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-title">
+        <div>
+          <h2>Quiz: Computer Vision Basics</h2>
+          <p>Answer 10 questions, then click “Submit” to get your score + correct answers.</p>
+        </div>
+      </div>
+
+      <section class="card quiz-box">
+        <form id="quizForm">
+          <div id="quizContainer"></div>
+
+          <button class="btn primary" type="submit">Submit Quiz</button>
+          <button class="btn" type="button" id="resetBtn">Reset</button>
+
+          <div id="result" class="result" style="display:none"></div>
+          <div id="correctAnswers" class="correct-list" style="display:none"></div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer><div class="container"><small>© <span id="year"></span> Aouissaoui wiem</small></div></footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/quiz.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

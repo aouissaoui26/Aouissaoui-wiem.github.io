@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Academic Projects | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">AW</span><span>Aouissaoui wiem</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html">Internships</a>
+        <a href="events.html">Events</a>
+        <a href="coursework.html" class="active">Academic Projects</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="iit.html">IIT</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn primary" href="contact.html">Contact</a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-title">
+        <div>
+          <h2>Academic Projects</h2>
+          <p>Selected projects in Computer Vision, Deep Learning, and Embedded AI.</p>
+        </div>
+      </div>
+
+      <!-- PROJECT 1 -->
+      <section class="card tile exp-card">
+        <div class="exp-head">
+          <div>
+            <h3 class="exp-title">Post-Stroke Lesion Segmentation from MRI</h3>
+            <p class="muted">ENET'Com • Nov 2025 – Dec 2025</p>
+          </div>
+
+          <div class="exp-meta">
+            <span class="chip">Segmentation</span>
+            <span class="chip">MRI</span>
+            <span class="chip">Evaluation</span>
+          </div>
+        </div>
+
+        <p class="exp-obj"><strong>Goal:</strong> Identify post-stroke lesions using medical image segmentation models and select the best-performing model based on evaluation metrics.</p>
+
+        <ul class="exp-list">
+          <li>Applied segmentation pipelines to detect lesion regions from MRI scans.</li>
+          <li>Compared multiple architectures and selected the most deployment-ready model.</li>
+          <li>Prepared the model for future integration in an application workflow.</li>
+        </ul>
+
+        <div class="exp-tags">
+          <span class="tag">Roboflow</span>
+          <span class="tag">SegFormer</span>
+          <span class="tag">YOLO</span>
+          <span class="tag">Detectron2</span>
+          <span class="tag">Python</span>
+          <span class="tag">Streamlit</span>
+        </div>
+      </section>
+
+      <!-- PROJECT 2 -->
+      <section class="card tile exp-card">
+        <div class="exp-head">
+          <div>
+            <h3 class="exp-title">Tomato Leaf Disease Detection</h3>
+            <p class="muted">IIT Sfax • Nov 2025 – Dec 2025</p>
+          </div>
+
+          <div class="exp-meta">
+            <span class="chip">Object Detection</span>
+            <span class="chip">TinyML</span>
+            <span class="chip">Embedded</span>
+          </div>
+        </div>
+
+        <p class="exp-obj"><strong>Goal:</strong> Develop a tomato disease detection system based on deep learning and deploy it through a web interface.</p>
+
+        <ul class="exp-list">
+          <li>Trained object detection models using a Roboflow dataset pipeline.</li>
+          <li>Optimized the approach for embedded constraints (latency + memory).</li>
+          <li>Deployed the final model on a Streamlit web application enabling image upload and real-time prediction.</li>
+        </ul>
+
+        <div class="exp-tags">
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">YOLOv8</span>
+          <span class="tag">MobileNet</span>
+          <span class="tag">TinyML</span>
+          <span class="tag">Edge Impulse</span>
+          <span class="tag">Roboflow</span>
+        </div>
+      </section>
+
+      <!-- PROJECT 3 -->
+      <section class="card tile exp-card">
+        <div class="exp-head">
+          <div>
+            <h3 class="exp-title">Smart City Parking Spot Detection</h3>
+            <p class="muted">ENET'Com • Mar 2025 – Apr 2025 (Training) • Dec 2024 – Feb 2025 (Evaluation)</p>
+          </div>
+
+          <div class="exp-meta">
+            <span class="chip">Detection</span>
+            <span class="chip">Smart City</span>
+            <span class="chip">Transformer</span>
+          </div>
+        </div>
+
+        <p class="exp-obj"><strong>Goal:</strong> Detect available parking spots and evaluate model performance using modern detectors.</p>
+
+        <ul class="exp-list">
+          <li>Trained detection models to identify free/occupied parking spaces.</li>
+          <li>Evaluated performance across architectures and tuned thresholds.</li>
+          <li>Compared classic YOLO-style detectors vs transformer-based DETR.</li>
+        </ul>
+
+        <div class="exp-tags">
+          <span class="tag">Computer Vision</span>
+          <span class="tag">YOLO</span>
+          <span class="tag">DETR</span>
+          <span class="tag">Transformer</span>
+          <span class="tag">Python</span>
+        </div>
+      </section>
+
+      <!-- PROJECT 4 -->
+      <section class="card tile exp-card">
+        <div class="exp-head">
+          <div>
+            <h3 class="exp-title">Voice-Based Attendance Management</h3>
+            <p class="muted">ENET'Com</p>
+          </div>
+
+          <div class="exp-meta">
+            <span class="chip">Audio</span>
+            <span class="chip">Spectrograms</span>
+            <span class="chip">Web App</span>
+          </div>
+        </div>
+
+        <p class="exp-obj"><strong>Goal:</strong> Build a speaker identification system using spectrograms and deploy it as a web interface to automate attendance.</p>
+
+        <ul class="exp-list">
+          <li>Generated spectrogram features and trained classifiers for identification.</li>
+          <li>Trained deep models (MobileNetV2, InceptionResNetV2, Xception) with transfer learning.</li>
+          <li>Deployed the solution inside a web interface and documented the system.</li>
+        </ul>
+
+        <div class="exp-tags">
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Transfer Learning</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag">Librosa</span>
+          <span class="tag">Python</span>
+          <span class="tag">Kaggle</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">LaTeX</span>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Aouissaoui wiem</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Academic Journey | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">AW</span><span>Aouissaoui wiem</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html">Internships</a>
+        <a href="events.html">Events</a>
+        <a href="coursework.html">Academic Projects</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="iit.html">IIT</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn primary" href="contact.html">Contact</a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+
+  <!-- Page title -->
+  <section class="section" id="timeline">
+  <div class="container">
+    <h2 class="page-title">Academic Journey</h2>
+<p class="page-sub">Education, diplomas, and certificates.</p>
+
+<div class="tab-links">
+  <a class="tab-btn" href="#timeline">Education</a>
+  <a class="tab-btn" href="#diplomas">Diplomas</a>
+  <a class="tab-btn" href="#certificates">Certificates</a>
+</div>
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline2">
+
+      <!-- 1 -->
+      <div class="tl-item left">
+        <div class="tl-content">
+          <h4>Engineering Cycle – Computer Engineering </h4>
+          <p class="tl-place">International Institute of Technology (IIT) • Sfax</p>
+          <p class="tl-date">
+            <i class="fa-regular fa-calendar"></i> Sep 2025 – Present
+          </p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="tl-item right">
+        <div class="tl-content">
+          <h4>Research Master – Intelligent Systems Engineering</h4>
+          <p class="tl-place">National School of Electronics and Telecommunications (ENET’Com) • Sfax</p>
+          <p class="tl-date">
+            <i class="fa-regular fa-calendar"></i> Sep 2024 – Present
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="tl-item left">
+        <div class="tl-content">
+          <h4>Computer Science Degree</h4>
+          <p class="tl-place">Higher Institute of Computer Science and Multimedia (ISIMS) • Sfax</p>
+          <p class="tl-place">Specialization: Big Data & Data Analysis</p>
+          <p class="tl-date">
+            <i class="fa-regular fa-calendar"></i> Dec 2021 – May 2024
+          </p>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="tl-item right">
+        <div class="tl-content">
+          <h4>Baccalaureate in Mathematics</h4>
+          <p class="tl-place">Lycée Pilote Privé “L’Avenir” • Kairouan</p>
+          <p class="tl-date">
+            <i class="fa-regular fa-calendar"></i> Jun 2021
+          </p>
+        </div>
+      </div>
+
+      <span class="tl-line" aria-hidden="true"></span>
+    </div>
+  </div>
+</section>
+
+
+  <!-- DIPLOMAS GALLERY -->
+  <section class="section" id="diplomas">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">Diploma Gallery</h2>
+          <p class="muted">Photos/scans of obtained diplomas.</p>
+        </div>
+      </div>
+
+      <!-- slider/list like your image -->
+      <div class="media-slider">
+  <button class="slide-btn prev" type="button" data-target="diploma" aria-label="Previous">‹</button>
+
+  <div class="slide-frame">
+    <img id="diplomaImg" src="assets\img\diplom1.jpg" alt="Diploma">
+  </div>
+
+  <button class="slide-btn next" type="button" data-target="diploma" aria-label="Next">›</button>
+</div>
+
+
+      
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2 class="section-title">Certificates</h2>
+          <p class="muted">Most recent certificates.</p>
+        </div>
+      </div>
+
+      <div class="media-slider">
+  <button class="slide-btn prev" type="button" data-target="cert" aria-label="Previous">‹</button>
+
+  <div class="slide-frame">
+    <img id="certImg" src="assets\img\azure.jpg" alt="Certificate">
+  </div>
+
+  <button class="slide-btn next" type="button" data-target="cert" aria-label="Next">›</button>
+</div>
+
+
+      
+    </div>
+  </section>
+
+</main>
+
+  <footer>
+    <div class="container"><small>© <span id="year"></span> Aouissaoui wiem</small></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
+

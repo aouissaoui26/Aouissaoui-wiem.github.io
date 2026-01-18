@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">AW</span><span>Aouissaoui wiem</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="experiences.html">Internships</a>
+        <a href="events.html" class="active">Events</a>
+        <a href="coursework.html">Academic Projects</a>
+        <a href="passions.html">Passions</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="iit.html">IIT</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn primary" href="contact.html">Contact</a>
+        <button class="menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="page-title">
+        <div>
+          <h2>Events</h2>
+          <p>Poster sessions, workshops, and academic activities.</p>
+        </div>
+      </div>
+
+      <!-- Poster Session Card -->
+      <section class="card tile event-card">
+        <div class="event-top">
+          <div>
+            <h3 class="event-title">Poster Session — Tunisian AI Society (TAS) × BIGTECH</h3>
+            <p class="muted event-sub">
+              Tunisia, Kram • Poster presentation (Food recognition & calorie estimation)
+            </p>
+
+            <div class="event-meta">
+              <span class="chip">Poster session</span>
+              <span class="chip">Computer Vision</span>
+              <span class="chip">Deep Learning</span>
+              <span class="chip">TunFood</span>
+            </div>
+          </div>
+
+          <div class="event-actions">
+            <a class="btn primary" href="assets\img\Poster-wiem.pdf" target="_blank" rel="noopener">
+              Open Poster
+            </a>
+            <a class="btn" href="assets\img\Poster-wiem.pdf" download>
+              Download
+            </a>
+          </div>
+        </div>
+
+        <div class="event-body">
+          <div class="event-desc">
+            <h4 class="event-h4">Poster</h4>
+            <p class="muted">
+              “TunFood: Food Recognition and Calorie Estimation using Deep Learning”.
+            </p>
+
+            <ul class="event-list">
+              <li>Web app for Tunisian food recognition + calorie estimation.</li>
+              <li>Segmentation & detection with YOLOv8.</li>
+              <li>Datasets: FoodSeg103 + TunFood (newly collected).</li>
+            </ul>
+          </div>
+
+          <!-- PDF preview -->
+          <div class="poster-preview">
+            <iframe
+              class="poster-frame"
+              src="assets\img\Poster-wiem.pdf"
+              title="TunFood Poster PDF"
+              loading="lazy">
+            </iframe>
+            <p class="muted poster-note">
+              If the preview doesn’t display, use <strong>Open Poster</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Aouissaoui wiem</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
